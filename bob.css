@@ -4,20 +4,23 @@
     box-sizing: border-box;
     width: -webkit-fill-available;
 }
-nav {background-color: #fff;
+nav {
 	font-weight: bold;
 	text-align: left;
-	padding-right: 2em;
+	/*padding-right: 2em;*/
 	position: relative;
 		}
 
 #wrapper {margin-left: auto;
 		margin-right: auto;
 		width: 80%;
-		background-color: #fff;
+		/*background-color: #fff;*/
 		min-width: 400px; max-width: 2048px;
 		
 		}
+h1{
+    color: white;
+}
 
 .carousel {
   height: 500px;
@@ -31,7 +34,7 @@ nav {background-color: #fff;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-    width: auto;
+    width: 100%;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -40,4 +43,11 @@ nav {background-color: #fff;
   left: 0;
   min-width: 400px; max-width: auto;
   height: 500px;
+}
+
+
+body{
+    background-color: coral;
+    background-image: url("graphic%20designs/background.jpg");
+    background-size: cover;
 }
