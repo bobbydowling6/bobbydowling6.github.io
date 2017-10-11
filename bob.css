@@ -16,8 +16,14 @@ nav {
 		width: 80%;
 		/*background-color: #fff;*/
 		min-width: 400px; max-width: 2048px;
-		
 		}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: whitesmoke;
+}
 h1{
     color: white;
 }
