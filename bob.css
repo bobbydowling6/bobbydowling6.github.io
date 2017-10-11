@@ -22,7 +22,26 @@ nav {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: whitesmoke;
+    background-color: rgba(230,230,230,0.3)
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
 }
 h1{
     color: white;
