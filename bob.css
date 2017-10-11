@@ -33,7 +33,7 @@ nav {
     text-decoration: none;
 }
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .fa-linkedin {
     background: #007bb5;
@@ -51,6 +51,14 @@ h2, h3, h4, h5{
 }
 p{
     color: black;
+}
+#me{
+    background-image: url(graphic%20designs/me.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: 100% 100%;
+    background-blend-mode
+    background-repeat: no-repeat;
 }
 
 .carousel {
