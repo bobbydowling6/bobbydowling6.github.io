@@ -1,5 +1,7 @@
 body{
     color: whitesmoke;
+    background-image: url("graphic%20designs/background.jpg");
+    background-size: cover;
 }
 nav {
 	font-weight: bold;
@@ -72,11 +74,6 @@ nav {
 }
 
 
-body{
-    background-color: coral;
-    background-image: url("graphic%20designs/background.jpg");
-    background-size: cover;
-}
 main{
      display:  flex;
     flex-direction: column;
