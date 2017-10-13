@@ -1,8 +1,5 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: -webkit-fill-available;
+body{
+    color: whitesmoke;
 }
 nav {
 	font-weight: bold;
@@ -21,10 +18,9 @@ nav {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: black;
     background-color: rgba(230,230,230,0.3);
 }
-.fa {
+/*.fa {
     padding: 10px;
     font-size: 40px;
     width: 60px;
@@ -42,16 +38,7 @@ nav {
 .fa-github {
     background: black;
     color: white;
-}
-h1{
-    color: white;
-}
-h2, h3, h4, h5{
-    color: black;
-}
-p{
-    color: black;
-}
+}*/
 #me{
     background-image: url(graphic%20designs/me.jpg);
     height: 300px;
@@ -94,6 +81,9 @@ main{
      display:  flex;
     flex-direction: column;
             }
-ul li {
-    color: black;
+.jumbotron,
+.well{
+    background-color: rgba(15,15,15, 0.6);
+    background-image: none;
+
 }
