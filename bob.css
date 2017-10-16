@@ -62,14 +62,13 @@ nav {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-    width: 100%;
-  background-color: #777;
+    width: auto;
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  min-width: 400px; max-width: auto;
+  min-width: auto; max-width: auto;
   height: 500px;
 }
 
