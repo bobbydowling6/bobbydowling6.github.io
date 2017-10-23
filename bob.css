@@ -1,13 +1,33 @@
+h1, h2 {
+font-family: 'Capture_it.ttf';
+}
+
+h3, h4, h5 {
+    font-family: 'Oswald-Medium.ttf';
+    font-size: 24px;
+}
+
+ul li {
+    font-family: 'Oswald-Medium.ttf';
+    font-size: 18px
+}
+
+p {
+font-family: 'Oswald-Medium.ttf';
+font-size: 18px;}
+
 body{
     color: whitesmoke;
     background-image: url("graphic%20designs/background.jpg");
     background-size: cover;
+
 }
 nav {
 	font-weight: bold;
 	text-align: left;
 	/*padding-right: 2em;*/
 	position: relative;
+
 		}
 
 #wrapper {margin-left: auto;
@@ -77,9 +97,23 @@ main{
      display:  flex;
     flex-direction: column;
             }
+a {
+    color: lightblue;
+    text-decoration: none;
+}
 .jumbotron,
 .well{
     background-color: rgba(15,15,15, 0.6);
     background-image: none;
 
+}
+
+@font-face {
+  font-family: 'Capture_it.ttf';
+  src: url('Capture_it.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald-Medium.ttf';
+    src: url('Oswald-Medium.ttf') format('truetype')
 }
