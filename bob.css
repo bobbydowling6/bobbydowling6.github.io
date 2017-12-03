@@ -113,6 +113,48 @@ a {
     background-image: none;
 
 }
+#gallery {position: relative;
+		width: 1000px;
+		height: 350px;
+		background-color: cover;
+		}
+
+	#gallery ul {width: 400px;
+		list-style-type: none;
+		}
+
+	#gallery li {display: inline;
+		float: left;
+		padding: 10px;
+		}
+
+	#gallery img {border-style: none;
+		}
+
+	#gallery a {text-decoration: none;
+		color: #000;
+		font-style: italic;
+		}
+
+	#gallery span {position: absolute;
+		left: -1000px;
+		opacity: 0;
+		transition: opacity 3s ease-in-out;
+		}
+
+	#gallery a:hover span {position: absolute;
+		top: 16px;
+		left: 5000px;
+		text-align: center;
+		opacity: 1;
+		}
+
+	#gallery a:link span {position: absolute;
+		top: 16px;
+		left: 500px;
+		text-align: center;
+		transition: opacity 3s ease-in-out;
+		}
 
 @font-face {
   font-family: 'Capture_it.ttf';
