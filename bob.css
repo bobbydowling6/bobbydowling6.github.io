@@ -9,17 +9,17 @@ font-family: 'Capture_it.ttf';
 }
 
 h3, h4, h5 {
-    font-family: 'Oswald-Medium.ttf';
+    font-family: arial;
     font-size: 24px;
 }
 
 ul li {
-    font-family: 'Oswald-Medium.ttf';
+    font-family: arial;
     font-size: 18px
 }
 
 p {
-font-family: 'Oswald-Medium.ttf';
+font-family: arial;
 font-size: 18px;}
 
 body{
