@@ -114,12 +114,12 @@ a {
 
 }
 #gallery {position: relative;
-		width: 1000px;
-		height: 350px;
+		width: auto;
+		height: 100%;
 		background-color: cover;
 		}
 
-	#gallery ul {width: 400px;
+	#gallery ul {width: auto;
 		list-style-type: none;
 		}
 
