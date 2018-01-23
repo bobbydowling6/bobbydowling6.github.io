@@ -188,8 +188,8 @@ a {
 
 #gallery a:link span {
     position: absolute;
-    top: 16px;
-    left: 500px;
+    top: 10px;
+    left: 600px;
     text-align: center;
     transition: opacity 3s ease-in-out;
 }
