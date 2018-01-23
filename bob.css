@@ -1,14 +1,18 @@
-.navbar-brand, .navbar-nav>li>a {
-    text-shadow: 0 1px 0 rgba(255,255,255,.25);
+.navbar-brand,
+.navbar-nav > li > a {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
     font-family: 'Oswald-Medium.ttf';
     font-size: 20px;
 }
 
-h1, h2 {
-font-family: 'Capture_it.ttf';
+h1,
+h2 {
+    font-family: 'Capture_it.ttf';
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     font-family: arial;
     font-size: 24px;
 }
@@ -19,35 +23,41 @@ ul li {
 }
 
 p {
-font-family: arial;
-font-size: 18px;}
+    font-family: arial;
+    font-size: 18px;
+}
 
-body{
+body {
     color: whitesmoke;
     background-image: url("graphic%20designs/background.jpg");
     background-size: cover;
 
 }
+
 nav {
-	font-weight: bold;
-	text-align: left;
-	/*padding-right: 2em;*/
-	position: relative;
+    font-weight: bold;
+    text-align: left;
+    /*padding-right: 2em;*/
+    position: relative;
 
-		}
+}
 
-#wrapper {margin-left: auto;
-		margin-right: auto;
-		width: 80%;
-		/*background-color: #fff;*/
-		min-width: 400px; max-width: 2048px;
-		}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /*background-color: #fff;*/
+    min-width: 400px;
+    max-width: 2048px;
+}
+
 .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    background-color: rgba(230,230,230,0.3);
+    background-color: rgba(230, 230, 230, 0.3);
 }
+
 /*.fa {
     padding: 10px;
     font-size: 40px;
@@ -67,98 +77,126 @@ nav {
     background: black;
     color: white;
 }*/
-#me{
+
+#me {
     background-image: url(graphic%20designs/me.jpg);
     height: 300px;
     width: 300px;
     background-size: 100% 100%;
-    background-blend-mode
-    background-repeat: no-repeat;
+    background-blend-mode background-repeat: no-repeat;
 }
 
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+    height: 500px;
+    margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
-  z-index: 10;
+    z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
+
 .carousel .item {
-  height: 500px;
+    height: 500px;
     width: auto;
 }
+
 .carousel-inner > .item > img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: auto; max-width: auto;
-  height: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: auto;
+    max-width: auto;
+    height: 500px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
 }
 
 
-main{
-     display:  flex;
+main {
+    display: flex;
     flex-direction: column;
-            }
+}
+
 a {
     color: lightblue;
     text-decoration: none;
 }
+
 .jumbotron,
-.well{
-    background-color: rgba(15,15,15, 0.6);
+.well {
+    background-color: rgba(15, 15, 15, 0.6);
     background-image: none;
 
 }
-#gallery {position: relative;
-		width: auto;
-		height: 100%;
-		background-color: cover;
-		}
 
-	#gallery ul {width: auto;
-		list-style-type: none;
-		}
+#gallery {
+    position: relative;
+    width: auto;
+    height: 100%;
+    background-color: cover;
+}
 
-	#gallery li {display: inline;
-		float: left;
-		padding: 10px;
-		}
+#gallery ul {
+    width: auto;
+    list-style-type: none;
+}
 
-	#gallery img {border-style: none;
-		}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
 
-	#gallery a {text-decoration: none;
-		color: #fff;
-		font-style: italic;
-		}
+#gallery img {
+    border-style: none;
+}
 
-	#gallery span {position: absolute;
-		left: -1000px;
-		opacity: 0;
-		transition: opacity 3s ease-in-out;
-		}
+#gallery a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
 
-	#gallery a:hover span {position: absolute;
-		top: 16px;
-		left: 5000px;
-		text-align: center;
-		opacity: 1;
-		}
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
 
-	#gallery a:link span {position: absolute;
-		top: 16px;
-		left: 500px;
-		text-align: center;
-		transition: opacity 3s ease-in-out;
-		}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 5000px;
+    text-align: center;
+    opacity: 1;
+}
+
+#gallery a:link span {
+    position: absolute;
+    top: 16px;
+    left: 500px;
+    text-align: center;
+    transition: opacity 3s ease-in-out;
+}
 
 @font-face {
-  font-family: 'Capture_it.ttf';
-  src: url('Capture_it.ttf')  format('truetype');
+    font-family: 'Capture_it.ttf';
+    src: url('Capture_it.ttf') format('truetype');
 }
 
 @font-face {
