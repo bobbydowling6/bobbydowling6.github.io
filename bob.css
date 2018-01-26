@@ -83,7 +83,8 @@ nav {
     height: 300px;
     width: 300px;
     background-size: 100% 100%;
-    background-blend-mode background-repeat: no-repeat;
+    background-blend-mode;
+    background-repeat: no-repeat;
 }
 
 .carousel {
