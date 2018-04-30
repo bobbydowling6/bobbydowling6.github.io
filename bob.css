@@ -34,7 +34,7 @@ p {
 
 address {
     font-family: 'Oswald-Medium.ttf';
-    font-size: 24px;
+    font-size: 20px;
 }
 
 body {
@@ -63,7 +63,7 @@ nav {
 
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
     margin-bottom: 30px;
     background-color: rgba(230, 230, 230, 0.3);
 }
