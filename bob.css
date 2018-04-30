@@ -32,6 +32,11 @@ p {
     font-size: 18px;
 }
 
+address {
+    font-family: 'Oswald-Medium.ttf';
+    font-size: 24px;
+}
+
 body {
     color: whitesmoke;
     background-image: url("graphic%20designs/background.jpg");
@@ -58,7 +63,7 @@ nav {
 
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin-bottom: 30px;
     background-color: rgba(230, 230, 230, 0.3);
 }
@@ -88,7 +93,6 @@ nav {
     height: 300px;
     width: 300px;
     background-size: 100% 100%;
-    background-blend-mode;
     background-repeat: no-repeat;
 }
 
