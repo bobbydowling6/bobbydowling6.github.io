@@ -90,8 +90,9 @@ nav {
 
 #me {
     background-image: url(graphic%20designs/me.jpg);
-    height: 300px;
-    width: 300px;
+    height: auto;
+    max-width: 100%;
+    display: block;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
